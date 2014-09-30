@@ -4,7 +4,7 @@ Operator Extension for Character
 
 ## Usage
 
-here is some example:
+Here are some examples:
 
 ```swift
 var c: Character = "C"
