@@ -19,16 +19,12 @@ func -(lhs: Character, rhs: Int) -> Character {
     return lhs + -rhs
 }
 
-func +=(inout lhs: Character, rhs: Int) -> Character {
+func +=(inout lhs: Character, rhs: Int) {
     lhs = lhs + rhs
-    
-    return lhs
 }
 
-func -=(inout lhs: Character, rhs: Int) -> Character {
+func -=(inout lhs: Character, rhs: Int) {
     lhs = lhs - rhs
-    
-    return lhs
 }
 
 prefix func ++(inout lhs: Character) -> Character {
